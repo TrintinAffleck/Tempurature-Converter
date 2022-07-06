@@ -9,13 +9,6 @@ farenheit_list = ['f','F','farenheit','Farenheit']
 choice = input("Pick your tempurature to convert (celsius or farenheit): ")
 
 if choice.isalpha:
-    print("alpha")
-if choice.isalnum:
-    print("alnum")
-if choice.isnumeric:
-    print("numeric")
-
-if choice.isalpha:
     if choice in celsius_list:
         c_to_f = True
     if choice in farenheit_list:
